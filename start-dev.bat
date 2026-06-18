@@ -1,0 +1,6 @@
+@echo off
+echo Installing root, server, and client dependencies...
+call npm run install:all
+echo Starting OpenClaw Agent Suite...
+call npm run dev
+pause

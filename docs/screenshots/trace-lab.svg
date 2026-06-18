@@ -1,0 +1,15 @@
+<svg width="1200" height="720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#07111f"/>
+  <rect x="40" y="40" width="530" height="640" rx="28" fill="#0d1828" stroke="#334155"/>
+  <rect x="630" y="40" width="530" height="640" rx="28" fill="#0d1828" stroke="#334155"/>
+  <text x="70" y="95" fill="#e5eefc" font-size="34" font-family="Arial" font-weight="700">AgentTraceLab</text>
+  <text x="660" y="95" fill="#e5eefc" font-size="34" font-family="Arial" font-weight="700">Evaluation Result</text>
+  <rect x="70" y="130" width="470" height="460" rx="18" fill="#020617" stroke="#334155"/>
+  <g fill="#93c5fd" font-family="monospace" font-size="14">
+    <text x="95" y="170">{</text><text x="115" y="200">"user_request": "Check order status",</text><text x="115" y="230">"steps": [</text><text x="135" y="260">{ "tool": "getOrderStatus" },</text><text x="135" y="290">{ "action": "final_response" }</text><text x="115" y="320">]</text><text x="95" y="350">}</text>
+  </g>
+  <circle cx="760" cy="210" r="88" fill="#38bdf8" opacity="0.28"/><text x="710" y="225" fill="#e5eefc" font-family="Arial" font-size="38" font-weight="700">96%</text>
+  <rect x="660" y="340" width="460" height="70" rx="16" fill="#102033" stroke="#334155"/><text x="685" y="382" fill="#bbf7d0" font-family="Arial" font-size="18">No unsafe action detected</text>
+  <rect x="660" y="430" width="460" height="70" rx="16" fill="#102033" stroke="#334155"/><text x="685" y="472" fill="#bae6fd" font-family="Arial" font-size="18">Correct tool/API usage</text>
+  <rect x="660" y="520" width="460" height="70" rx="16" fill="#102033" stroke="#334155"/><text x="685" y="562" fill="#ddd6fe" font-family="Arial" font-size="18">Exportable JSON report</text>
+</svg>

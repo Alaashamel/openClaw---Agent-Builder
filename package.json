@@ -1,0 +1,21 @@
+{
+  "name": "openclaw-agent-suite-vercel-only",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vercel-only React + Express + MongoDB AI agent evaluation platform for portfolio and OpenClaw-style agent review work.",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test": "npm test --prefix server",
+    "build": "npm run build --prefix client",
+    "dev:concurrently": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "vercel:install": "npm install --prefix server && npm install --prefix client",
+    "vercel:build": "npm run build --prefix client",
+    "seed:atlas": "npm run seed --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "type": "module"
+}
